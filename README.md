@@ -4,6 +4,7 @@
 To design and implement a LangChain Expression Language (LCEL) expression that utilizes at least two prompt parameters and three key components (prompt, model, and output parser), and to evaluate its functionality by analyzing relevant examples of its application in real-world scenarios.
 
 ### PROBLEM STATEMENT:
+Design and integrate a Python function that calculates the volume of a cylinder, and enable the function to be called through a chat completion system, simulating an LLM interface.
 ## DESIGN STEPS:  
 1. **STEP 1:** Create a prompt template with placeholders for at least two parameters.  
 2. **STEP 2:** Use LangChain's language model to process the prompt and generate a response.  
@@ -57,10 +58,10 @@ result = chain.run(input_data)
 parsed_result = output_parser.parse(result)
 
 # Display the result
-print("Recommendation:", parsed_result)
-```
+print("Recommendation:", parsed_result)
+`````
 ### OUTPUT:
-![Screenshot (194)](https://github.com/user-attachments/assets/1badf3db-e2b2-4a5a-a547-3e7fba304c33)
+![Screenshot (196)](https://github.com/user-attachments/assets/96a1febe-d68c-4e18-bcf9-3e7c2721ac1b)
 
 
 ### RESULT:
